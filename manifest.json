@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Boldify Extension",
+  "version": "1.0",
+  "description": "Turns the first two characters of words into bold text.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
