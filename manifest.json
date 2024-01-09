@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Boldify Extension",
   "version": "1.0",
   "description": "Turns the first two characters of words into bold text.",
